@@ -11,7 +11,13 @@ var simplemde = new SimpleMDE();
 </script>
 <p><textarea id="mde"></textarea></p>
 <script>
-var simplemde = new SimpleMDE({ element: document.getElementById("mde") });
-</script>
+	new SimpleMDE({
+		element: document.getElementById("mde"),
+		spellChecker: false,
+		autosave: {
+			enabled: true,
+			unique_id: "mde",
+	});
+	</script>
 </body>
 </html>
