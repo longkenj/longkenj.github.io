@@ -1,0 +1,4 @@
+baseURL = "https://longkenj.github.io"
+languageCode = "en-us"
+title = "Naver Images Downloader"
+theme = "m10c"
