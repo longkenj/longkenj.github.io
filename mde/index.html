@@ -7,8 +7,8 @@
 <h1 class="project-name">SimpleMDE Markdown Editor</h1>
 </section>
 <section class="main-content">
-<textarea id="demo1"></textarea>
-<simplemde></simplemde>
+<div id="content"><textarea id="demo1"></textarea></div>
+
 </footer>
 </section>
 
@@ -27,7 +27,7 @@
 		bold: "__",
 		italic: "_"
 	},
-	element: document.getElementById("demo1"),
+	element: document.getElementById("content"),
 	forceSync: true,
 	hideIcons: ["guide", "heading"],
 	indentWithTabs: false,
