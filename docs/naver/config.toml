@@ -1,4 +1,4 @@
-baseURL = "https://longkenj.github.io"
+baseURL = "https://longkenj.github.io/hugo/"
 languageCode = "en-us"
 title = "Naver Images Downloader"
 theme = "m10c"
